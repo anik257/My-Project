@@ -83,19 +83,24 @@ color:#181818;
     font-size: 18px;
     color: #757575;
 }
-.secondry-bg{
+.secondary-bg{
 background-color: #FFF8F3;
 
 }
 .about{
     border-radius:10px ;
     padding: 130px 150px;
+    text-align: center;
 }
 main{
     max-width: 1140px;
     margin: 0 auto;
-    text-align: center;
+   
+}
+main section{
+    
     margin-top: 130px;
+    margin-bottom: 130px
 }
 
 
@@ -106,4 +111,20 @@ main{
 .about-items{
     display: flex;
     justify-content: space-around;
+}
+text-center{
+    text-align: center;
+}
+.skills-container{
+    display: flex;
+    gap: 20px;
+
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0 rgba(0, 0, 0, 0.06);
+}
+.text-center{
+    text-align: center;
 }
